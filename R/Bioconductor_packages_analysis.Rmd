@@ -1,13 +1,17 @@
+---
+output:
+  html_document: default
+  pdf_document: default
+---
 ### **Bioconductor: análisis de paquetes**
 Autora: Silvana Cristo
 
 Fecha: 29/01/2025
 
 
-
 #### **Paquete scDotPlot:**
 
-***Descripción general***
+**Descripción general**
 
 El paquete scDotPlot, disponible en la versión 3.20 de Bioconductor, está diseñado para crear gráficos de puntos (dot plots) específicos para datos de RNA-seq de célula única (scRNA-seq). Este tipo de visualización es fundamental en la bioinformática moderna, ya que permite examinar las relaciones entre agrupaciones celulares (por ejemplo, clusters) y la expresión de genes marcadores.
 
@@ -21,10 +25,10 @@ Entre sus funciones principales, scDotPlot permite:
 
 El paquete cumple con los estándares necesarios para su inclusión en Bioconductor:
 
-1. Compatibilidad: fue probado exitosamente en todos los sistemas operativos soportados.
-2. Actualización: recibió su última actualización antes del lanzamiento oficial de Bioconductor 3.20.
-3. Dependencias: aunque depende de 207 paquetes, esta complejidad es común en herramientas especializadas como esta.
-4. Soporte a usuarios: el repositorio en GitHub incluye interacciones entre desarrolladores y usuarios. Un ejemplo destacable es la respuesta detallada y amable a una pregunta sobre la edición de los gráficos, lo que demuestra el compromiso del autor con la comunidad.
+1. Compatibilidad: es compatible con todas las plataformas soportadas por Bioconductor, con estado "build ok". 
+2. Dependencias: aunque depende de 207 paquetes, esta complejidad es común en herramientas especializadas como esta.
+3. Documentación: proporciona una descripción detallada de sus funciones y un enlace a su repositorio, lo que facilita el aprendizaje y uso.
+4. Soporte a usuarios: el repositorio en GitHub incluye una única interacción entre desarrollador y usuario. 
 
 **Importancia del paquete**
 
@@ -32,6 +36,37 @@ La relevancia de scDotPlot radica en su capacidad para facilitar la visualizaci�
 
 **Discusión**
 
-Elegí scDotPlot por su enfoque en datos de scRNA-seq, una técnica esencial en bioinformática. Aunque el soporte de usuarios no es tan amplio como en otros paquetes, la calidad de las respuestas observadas refleja un esfuerzo por parte del desarrollador para atender las necesidades de la comunidad. Además, su compatibilidad con herramientas como Seurat lo hace especialmente versátil.
+Elegí scDotPlot por su enfoque en datos de scRNA-seq, una técnica esencial en bioinformática. Aunque el soporte de usuarios no es tan amplio como en otros paquetes, la calidad de la respuesta observada en el repositorio del paquete, refleja un esfuerzo por parte del desarrollador para atender las necesidades de la comunidad. Además, su compatibilidad con herramientas como Seurat lo hace muy flexible. 
 
 En conclusión, scDotPlot es una herramienta robusta y confiable para proyectos enfocados en la visualización de datos de scRNA-seq. Su diseño bien documentado y su relevancia en estudios actuales de transcriptómica lo convierten en una excelente opción para el análisis de datos ómicos.
+
+
+
+#### **Paquete scoup:**
+
+**Descripción general**
+
+El paquete scoup disponible en la versión 3.20 de Bioconductor, proporciona un marco molecular evolutivo que permite la simulación de secuencias de codones bajo diferentes grados y patrones de selección darwiniana. Está basado en el paradigma de paisajes de aptitud de Sewall Wright, utilizando el modelo de selección-mutación de Halpern y Bruno.
+
+Entre sus características destacadas se incluyen:
+
+- Uso del algoritmo de actualización de aptitud Ornstein-Uhlenbeck para modelar procesos evolutivos de manera realista.
+- Simulación de procesos biológicos complejos, como la interacción entre la deriva genética y la mutación, para inferir la selección diversificante.
+- Métodos para modelar paisajes de aptitud dependientes de la frecuencia y actualizaciones deterministas.
+- Este paquete simplifica el análisis de procesos evolutivos que de otra manera serían complejos.
+
+**Revisión técnica**
+
+1. Compatibilidad: es compatible con todas las plataformas soportadas por Bioconductor, con estado "build ok".
+2. Dependencias: tiene solo 28 dependencias, lo que lo hace ligero y fácil de integrar en proyectos más grandes.
+3. Documentación: proporciona una descripción detallada de sus funciones y un enlace a su repositorio, lo que facilita el aprendizaje y uso.
+4. Soporte a usuarios: aunque no hay evidencia directa de interacción con usuarios en el repositorio, el autor ha compartido su correo electrónico como medio de contacto.
+
+**Importancia del paquete**
+
+scoup es relevante para investigadores interesados en biología evolutiva, genética poblacional y simulaciones moleculares. Su enfoque en modelos darwinianos y simulaciones precisas lo hace una herramienta muy útil para estudios teóricos y experimentales relacionados con la evolución molecular.
+
+**Discusión**
+
+Elegí este paquete por su capacidad para modelar procesos evolutivos complejos con facilidad y precisión. Aunque su uso puede parecer avanzado para principiantes, su diseño lo hace accesible para aquellos con experiencia en biología evolutiva. Es una opción ideal para simular paisajes de aptitud y estudiar dinámicas evolutivas en profundidad.
+
