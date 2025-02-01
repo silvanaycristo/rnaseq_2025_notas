@@ -145,7 +145,7 @@ assay(rse_gene_SRP045638, "counts") <- compute_read_counts(rse_gene_SRP045638)
 ## ----describe_issue-------------------------------------------
 rse_gene_SRP045638$sra.sample_attributes[1:3]
 
-## dev_stage;;Fetal se encuentra solamente en el primer output. Hay que eliminarla.
+## dev_stage;;Fetal se encuentra solamente en el primer output. Es necesario eliminarla.
 
 ## ----solve_issue----------------------------------------------
 rse_gene_SRP045638$sra.sample_attributes <- gsub(
