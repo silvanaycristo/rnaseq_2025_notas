@@ -242,7 +242,7 @@ ggplot(as.data.frame(colData(rse_gene_SRP045638)), aes(y = assigned_gene_prop, x
   ylab("Assigned Gene Prop") +
   xlab("Age Group")
 
-## Para hacer el análisis de expresión, hay que definir el modelo estadístico.
+## Para hacer el análisis de expresión, primero hay que definir el modelo estadístico.
 
 
 ## ----statiscal_model------------------------------------------
