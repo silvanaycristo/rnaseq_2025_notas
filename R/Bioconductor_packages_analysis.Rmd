@@ -1,0 +1,37 @@
+### **Bioconductor: análisis de paquetes**
+Autora: Silvana Cristo
+
+Fecha: 29/01/2025
+
+
+
+#### **Paquete scDotPlot:**
+
+***Descripción general***
+
+El paquete scDotPlot, disponible en la versión 3.20 de Bioconductor, está diseñado para crear gráficos de puntos (dot plots) específicos para datos de RNA-seq de célula única (scRNA-seq). Este tipo de visualización es fundamental en la bioinformática moderna, ya que permite examinar las relaciones entre agrupaciones celulares (por ejemplo, clusters) y la expresión de genes marcadores.
+
+Entre sus funciones principales, scDotPlot permite:
+
+- Realizar análisis de clustering jerárquico.
+- Anotar columnas y filas en gráficos de puntos.
+- Trabajar con objetos SingleCellExperiment y Seurat, además de data frames estándar.
+
+**Revisión técnica**
+
+El paquete cumple con los estándares necesarios para su inclusión en Bioconductor:
+
+1. Compatibilidad: fue probado exitosamente en todos los sistemas operativos soportados.
+2. Actualización: recibió su última actualización antes del lanzamiento oficial de Bioconductor 3.20.
+3. Dependencias: aunque depende de 207 paquetes, esta complejidad es común en herramientas especializadas como esta.
+4. Soporte a usuarios: el repositorio en GitHub incluye interacciones entre desarrolladores y usuarios. Un ejemplo destacable es la respuesta detallada y amable a una pregunta sobre la edición de los gráficos, lo que demuestra el compromiso del autor con la comunidad.
+
+**Importancia del paquete**
+
+La relevancia de scDotPlot radica en su capacidad para facilitar la visualización y el análisis de datos transcriptómicos a nivel de célula única. Este enfoque es crucial para entender la heterogeneidad celular y los procesos biológicos en estudios de biología del desarrollo, enfermedades complejas, y más.
+
+**Discusión**
+
+Elegí scDotPlot por su enfoque en datos de scRNA-seq, una técnica esencial en bioinformática. Aunque el soporte de usuarios no es tan amplio como en otros paquetes, la calidad de las respuestas observadas refleja un esfuerzo por parte del desarrollador para atender las necesidades de la comunidad. Además, su compatibilidad con herramientas como Seurat lo hace especialmente versátil.
+
+En conclusión, scDotPlot es una herramienta robusta y confiable para proyectos enfocados en la visualización de datos de scRNA-seq. Su diseño bien documentado y su relevancia en estudios actuales de transcriptómica lo convierten en una excelente opción para el análisis de datos ómicos.
