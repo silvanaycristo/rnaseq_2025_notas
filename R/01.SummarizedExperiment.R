@@ -11,7 +11,7 @@ library("SummarizedExperiment")
 nrows <- 200
 ncols <- 6
 ## Números al azar de cuentas
-set.seed(20210223)
+set.seed(20210223) ## Crea una semilla
 counts <- matrix(runif(nrows * ncols, 1, 1e4), nrows)
 ## Información de nuestros genes
 rowRanges <- GRanges(
@@ -82,5 +82,33 @@ lobstr::obj_size(sce_layer)
 
 ## ----explore_sce_layer, eval = FALSE--------------------------
 iSEE::iSEE(sce_layer)
+
+
+## ----Ejercicio 3.2--------------------------------------------
+
+## Comando 1
+rse[1:2, ]
+
+## class: RangedSummarizedExperiment
+## dim: 2 6
+## metadata(0):
+## assays(1): counts
+## rownames(2): gene_1 gene_2
+## rowData names(1): feature_id
+## colnames(6): A B ... E F
+## colData names(1): Treatment
+
+## Comando 2
+rse[, c("A", "D", "F")]
+
+## class: RangedSummarizedExperiment
+## dim: 200 3
+## metadata(0):
+## assays(1): counts
+## rownames(200): gene_1 gene_2 ... gene_199 gene_200
+## rowData names(1): feature_id
+## colnames(3): A D F
+## colData names(1): Treatment
+
 
 
