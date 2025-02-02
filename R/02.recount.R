@@ -68,6 +68,8 @@ colData(rse_gene_SRP009615)[
 iSEE::iSEE(rse_gene_SRP009615)
 
 
+## Comandos generados para reproducir el gráfico del ejercicio:
+
 ## The following list of commands will generate the plots created in iSEE
 ## Copy them into a script or an R session containing your SingleCellExperiment.
 ## All commands below refer to your SingleCellExperiment object as `se`.
