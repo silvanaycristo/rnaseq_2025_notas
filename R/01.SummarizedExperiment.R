@@ -123,7 +123,12 @@ lobstr::obj_size(sce_layer)
 ## ----explore_sce_layer, eval = FALSE--------------------------
 iSEE::iSEE(sce_layer)
 
-## Comandos generados para reproducir los graficos de este ejercicio
+
+## ¿En qué capas se expresan más los genes MOBP y MBP?
+
+
+
+## Comandos generados para reproducir los graficos de este ejercicio:
 
 ## The following list of commands will generate the plots created in iSEE
 ## Copy them into a script or an R session containing your SingleCellExperiment.
