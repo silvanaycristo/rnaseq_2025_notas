@@ -1,17 +1,18 @@
 ---
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
 ---
+
 ### **Bioconductor: análisis de paquetes**
 Autora: Silvana Cristo
 
 Fecha: 29/01/2025
 
 
-#### **Paquete scDotPlot:**
+##### **Paquete scDotPlot:**
 
-**Descripción general**
+**descripción general**
 
 El paquete scDotPlot, disponible en la versión 3.20 de Bioconductor, está diseñado para crear gráficos de puntos (dot plots) específicos para datos de RNA-seq de célula única (scRNA-seq). Este tipo de visualización es fundamental en la bioinformática moderna, ya que permite examinar las relaciones entre agrupaciones celulares (por ejemplo, clusters) y la expresión de genes marcadores.
 
@@ -42,9 +43,11 @@ En conclusión, scDotPlot es una herramienta robusta y confiable para proyectos 
 
 
 
-#### **Paquete scoup:**
 
-**Descripción general**
+
+##### **Paquete scoup:**
+
+**descripción general**
 
 El paquete scoup disponible en la versión 3.20 de Bioconductor, proporciona un marco molecular evolutivo que permite la simulación de secuencias de codones bajo diferentes grados y patrones de selección darwiniana. Está basado en el paradigma de paisajes de aptitud de Sewall Wright, utilizando el modelo de selección-mutación de Halpern y Bruno.
 
