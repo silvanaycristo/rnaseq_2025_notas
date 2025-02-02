@@ -1,0 +1,20 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
+**Ejercicio**
+
+
+
+Autora: Silvana Cristo
+
+Fecha: 30-01-2025  
+
+
+La gráfica muestra cómo varía la expresión del gen ENSG00000168314.17 (en el eje Y) entre diferentes grupos de muestras, agrupados según su nivel de expresión de shRNA (en el eje X). Los grupos incluyen muestras sin shRNA, con shRNA dirigido a genes específicos como SRF, ATF3, y EGR1, o sin expresión de shRNA confirmada.
+
+Los puntos representan los valores individuales de expresión por muestra, y están coloreados según el tratamiento aplicado (Puromycin o Puromycin+Doxycycline). Las distribuciones (violin plots) reflejan cómo se distribuyen los valores de expresión en cada grupo, destacando variabilidad o tendencias.
+
+
+![FeatureAssayPlot1]("/home/silvanac/rnaseq_2025_notas/R/FeatureAssayPlot1_30-01-2025.png") 
