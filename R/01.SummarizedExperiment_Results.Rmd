@@ -1,0 +1,29 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
+**Ejercicio**
+
+
+
+Autora: Silvana Cristo
+
+Fecha: 29-01-2025  
+
+- Descarga un PDF que reproduzca la imagen del lado derecho de la siguiente diapositiva. Incluye ese PDF en tu repositorio de notas del curso.
+
+![ComplexHeatmapPlot1]("/home/silvanac/rnaseq_2025_notas/R/ComplexHeatmapPlot1.png")
+
+![ReducedDimensionPlot1]("/home/silvanac/rnaseq_2025_notas/R/ReducedDimensionPlot1.png")
+
+![FeatureAssayPlot1]("/home/silvanac/rnaseq_2025_notas/R/FeatureAssayPlot1.png")
+
+
+- ¿En qué capas se expresan más los genes MOBP y MBP?
+
+Los genes MOBP (ENSG00000168314) y MBP (ENSG00000197971) muestran una mayor expresión en la capa WM (white matter), como se observa en el heatmap donde las muestras de esta capa tienen valores en amarillo brillante, lo que indica niveles elevados de expresión.
+
+Interpretación biológica: 
+
+La alta expresión de MOBP y MBP en la WM es coherente con su función biológica, ya que ambos genes están involucrados en procesos relacionados con la mielinización de los axones, una característica distintiva de la sustancia blanca.
