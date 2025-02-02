@@ -6,7 +6,7 @@ library("SummarizedExperiment")
 ## De los ejemplos en la ayuda oficial
 
 ## Creamos los datos para nuestro objeto de tipo SummarizedExperiment
-## parra 200 genes a lo largo de 6 muestras
+## para 200 genes a lo largo de 6 muestras
 nrows <- 200
 ncols <- 6
 ## Números al azar de cuentas
@@ -66,8 +66,8 @@ rse[, c("A", "D", "F")]
 
 ## ----isee_basic, eval = FALSE---------------------------------
 # ## Explora el objeto rse de forma interactiva
-# library("iSEE")
-# iSEE::iSEE(rse)
+library("iSEE")
+iSEE::iSEE(rse)
 
 
 ## ----download_sce_layer---------------------------------------
@@ -80,4 +80,6 @@ lobstr::obj_size(sce_layer)
 
 
 ## ----explore_sce_layer, eval = FALSE--------------------------
-# iSEE::iSEE(sce_layer)
+iSEE::iSEE(sce_layer)
+
+
